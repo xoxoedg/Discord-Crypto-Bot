@@ -14,9 +14,6 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith("!atakan"):
-        await message.channel.send("Atakan only looses money on Crypto")
-
     if message.content.startswith("!anton"):
         await message.channel.send("Hello Anton")
 
