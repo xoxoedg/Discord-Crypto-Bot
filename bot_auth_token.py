@@ -1,0 +1,2 @@
+import os
+CRYPTO_DOGEY_AUTH_TOKEN = os.environ["CRYPTO_DOGEY_AUTH_TOKEN"]
