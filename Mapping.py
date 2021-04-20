@@ -1,3 +1,6 @@
+crypto_list = ["ADA", "ETH", "DOT", "DENT", "BTC", "LTC",
+               "BTT", "CHZ", "LINK", "ALGO", "NEO", "THETA", "DOGE", "BNB"]
+
 wuff_message = f"price is currently: "
 commands = {"DOT": {"symbol": "DOTUSDT", "message_to_user": f"DOT {wuff_message}"},
             "ETH": {"symbol": "ETHUSDT", "message_to_user": f"ETH {wuff_message}"},

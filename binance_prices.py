@@ -14,14 +14,14 @@ def get_bid_price(coin):
     response = requests.get(url=market_data_endpoint, params=crypto_data)
     return response
 
-#def get_bid_price_coin_market():
-#    """API Request to Coin Markt API"""
-#    parameters = {"symbol": "HAPIUSD"}
-#    coin_market_headers = {
-#                           "X-CMC_PRO_API_KEY": COIN_MARKET_AUTH_TOKEN,
-#                           }
-#    response = requests.get(url=market_data_endpoint,params=parameters, headers=coin_market_headers)
-#    return response
+def get_bid_price_coin_market():
+    """API Request to Coin Market API"""
+    parameters = {"symbol": "HAPIUSDT"}
+    coin_market_headers = {
+                           "X-CMC_PRO_API_KEY": COIN_MARKET_AUTH_TOKEN,
+                           }
+    response = requests.get(url=market_data_endpoint,params=parameters, headers=coin_market_headers)
+    return response
 
 
 
